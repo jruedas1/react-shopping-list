@@ -1,5 +1,12 @@
+import Input from "./Input";
 function App(){
-    return <div><h1>React To-Do</h1></div>;
+    const handleInput = (listItem) => {
+        console.log(listItem);
+    }
+
+    return <div>
+        <Input inputSubmitCallback={handleInput}/>
+    </div>;
 }
 
 export default App;
