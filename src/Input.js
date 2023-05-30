@@ -15,7 +15,7 @@ function Input( {inputSubmitCallback} ){
     return (
       <div>
           <form onSubmit={handleFormSubmit}>
-              <label htmlFor="itemInput">Enter an shopping item:</label>
+              <label htmlFor="itemInput">Enter a shopping item:</label>
               <input type="text" id="itemInput" onChange={handleChange} value={item}/>
           </form>
       </div>  

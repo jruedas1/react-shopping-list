@@ -1,5 +1,7 @@
-function Item(){
+function Item( {item} ){
     return (
-      <div>Item</div>
+      <li>{item}</li>
     );
 }
+
+export default Item;
