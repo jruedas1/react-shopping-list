@@ -1,6 +1,8 @@
+import './css/Item.css';
+
 function Item( {item} ){
     return (
-      <li>{item}</li>
+      <li className="row">{item}</li>
     );
 }
 

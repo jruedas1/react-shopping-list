@@ -1,4 +1,6 @@
 import {useState} from "react";
+import './css/Input.css';
+
 function Input( {inputSubmitCallback} ){
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -13,8 +15,8 @@ function Input( {inputSubmitCallback} ){
     }
 
     return (
-      <div>
-          <form onSubmit={handleFormSubmit}>
+      <div className="container">
+          <form onSubmit={handleFormSubmit} className="column align-center">
               <label htmlFor="itemInput">Enter a shopping item:</label>
               <input type="text" id="itemInput" onChange={handleChange} value={item}/>
           </form>
