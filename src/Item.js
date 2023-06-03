@@ -2,7 +2,7 @@ import './css/Item.css';
 
 function Item( {item} ){
     return (
-      <li className="row">{item}</li>
+      <li className="row full-width">{item}</li>
     );
 }
 

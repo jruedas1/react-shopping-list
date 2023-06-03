@@ -1,5 +1,7 @@
 li {
     background: #f1eaea;
-    padding: 5px 0;
-    border-bottom: 1px solid lightgray;
+    list-style: none;
+    padding: 7px 20px;
+    border-bottom: 2px solid #918a8a;
+    font-size: 120%;
 }
